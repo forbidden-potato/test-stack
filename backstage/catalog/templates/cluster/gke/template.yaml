@@ -64,7 +64,7 @@ spec:
       action: fetch:template
       input:
         url: ./skeleton
-        targetPath: cluster-requests
+        targetPath: demo/clusters
         values:
           cluster_id: spoke-${{ parameters.cluster_id }}
           region: ${{ parameters.region }}
